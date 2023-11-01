@@ -1,0 +1,186 @@
+/* :root{} */
+
+.container {
+    width: 1600px;
+    margin: 0 auto;
+}
+
+@font-face {
+    font-family: Сera Pro;
+    src: url(../fonts/CeraPro-Regular.ttf);
+    font-family: Cera Pro Bold;
+    src: url(../fonts/CeraPro-Bold.ttf);
+    font-family: Cera Pro Blac;
+    src: url(../fonts/CeraPro-Black.ttf);
+
+}
+
+/* header */
+.header{
+    padding: 24px;
+}
+.header-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-list{
+    display: flex;
+    gap: 50px;
+
+}
+
+.header-logo {
+    font-family: Dela Gothic One;
+    font-size: 47px;
+    font-weight: 400;
+    line-height: 68px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000000;
+
+}
+
+.header-list-item-link {
+    font-family: Cera Pro Blac;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000000;
+}
+
+.header-list-item-link-support {
+    font-family: Cera Pro Blac;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0em;
+    background-color: #FF0000;
+    color: #FFFFFF;
+}
+
+/* main */
+
+/* section hero  */
+.section-hero{
+    padding: 30px;
+    outline: 2px solid grey;
+}
+.section-hero-list{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.section-hero-list-item {
+    font-family: Cera Pro Blac;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000000;
+}
+
+/* section title  */
+.section-title {
+    background-image: url(../img/image\ 4.png);
+    background-repeat: no-repeat;
+    width: 1600px;
+    height: 600px;  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-title-title {
+    font-family: Dela Gothic One;
+    font-size: 47px;
+    font-weight: 400;
+    line-height: 68px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+
+}
+
+.section-title-description {
+    font-family: Cera Pro Blac;
+    font-size: 43px;
+    font-weight: 700;
+    line-height: 54px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+/* section news */
+.section-news{
+    margin-top: 50px;
+
+}
+.section-news-title {
+    font-family: Cera Pro Blac;
+    font-size: 47px;
+    font-weight: 400;
+    line-height: 68px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-bottom: 50px;
+    color: #FF0000;
+}
+.section-news-list{
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.section-news-list-item-button{
+    font-family: Cera Pro Blac;
+    font-size: 31px;
+    font-weight: 400;
+    line-height: 45px;
+    letter-spacing: 0em;
+    text-align: center;
+    background-color:#FF0000;
+    width: 300px;
+    color: #FFFFFF;
+    display: flex;
+    align-self: flex-end;
+}
+.section-news-list-item-description{
+    font-family: Cera Pro Blac;
+    font-size: 31px;
+    font-weight: 400;
+    line-height: 45px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+.section-news-list-item {
+
+    border: 2px solid gray;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+}
+
+/* footer  */
+.footer{
+    margin-top: 100px;
+}
+.footer-list{
+    padding: 0;
+}
+.footer-list-item{
+    font-family: Cera Pro Blac;
+    font-size: 31px;
+    font-weight: 400;
+    line-height: 45px;
+    letter-spacing: 0em;
+    text-align: left;
+}
