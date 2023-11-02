@@ -18,6 +18,8 @@
 /* header */
 .header{
     padding: 24px;
+    outline: 2px solid grey;
+    
 }
 .header-wrap {
     display: flex;
@@ -57,8 +59,11 @@
     font-weight: 700;
     line-height: 40px;
     letter-spacing: 0em;
-    background-color: #FF0000;
     color: #FFFFFF;
+}
+.header-list-button{
+    background-color: #FF0000;
+    border-radius: 10px 10px 10px 10px;
 }
 
 /* main */
@@ -66,7 +71,7 @@
 /* section hero  */
 .section-hero{
     padding: 30px;
-    outline: 2px solid grey;
+
 }
 .section-hero-list{
     display: flex;
@@ -87,7 +92,8 @@
 
 /* section title  */
 .section-title {
-    background-image: url(../img/image\ 4.png);
+    background-image: url(../img/image.png); 
+    background-color: #262626;
     background-repeat: no-repeat;
     width: 1600px;
     height: 600px;  
@@ -151,7 +157,9 @@
     color: #FFFFFF;
     display: flex;
     align-self: flex-end;
+    border-radius: 10px 10px 10px 10px;
 }
+
 .section-news-list-item-description{
     font-family: Cera Pro Blac;
     font-size: 31px;
@@ -167,13 +175,17 @@
     text-align: left;
     display: flex;
     flex-direction: column;
+    border-radius: 10px 10px 10px 10px;
 }
 
 /* footer  */
 .footer{
     margin-top: 100px;
+    background-color: #262626;
+    padding: 100px;
 }
 .footer-list{
+    color: #FFFFFF;
     padding: 0;
 }
 .footer-list-item{
